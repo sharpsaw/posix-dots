@@ -4,7 +4,7 @@ if type aptitude &>/dev/null; then
     sudo aptitude remove "$@"
 elif type emerge &>/dev/null; then
     ,i -C "$@"
-if type zypper &>/dev/null; then
+elif type zypper &>/dev/null; then
     sudo zypper remove "$@"
 else
     echo "No apitude or emerge found. ☹"
