@@ -1,0 +1,3 @@
+#!/bin/sh -xe
+: Only aptitude, for now
+sudo aptitude upgrade
