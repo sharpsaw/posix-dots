@@ -15,3 +15,4 @@ else
     echo "Found none of emerge, aptitude, apt-get, zypper, brew in $PATH"
     echo "Perhaps you can teach \`,i\` how to work for your system?"
 fi
+,ls "$@"
